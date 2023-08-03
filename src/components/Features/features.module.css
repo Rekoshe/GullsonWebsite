@@ -1,0 +1,61 @@
+.keyText {
+    color: wheat;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2rem;
+    margin-left: 15rem;
+}
+
+.titleText {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.paragraphText {
+    color: gray;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.icon {
+    color: red;
+}
+
+.cardItem {
+    margin: 3rem;
+    margin-top: 5rem;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 700px;
+}
+
+.smallText {
+    color: gray;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.bigText {
+    color:  black;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.subText {
+    color: gray;
+    font-size: 25px;
+    margin-top: 3rem;
+}
+
+.content {
+    max-width: 1400px;
+}
