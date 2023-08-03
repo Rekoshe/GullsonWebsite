@@ -1,0 +1,61 @@
+@import "./../../styles/theme";
+
+.background {
+    transform: scale(1.3);
+    z-index: -1;
+    object-fit: cover;
+
+}
+
+.section {
+    overflow: hidden;
+    position: relative;
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    color: white; 
+    max-width: 30rem;
+    margin-right: 80rem;
+}
+
+.smalltext {
+    @include big-text;
+}
+
+.bigText {
+    @include big-text;
+    font-size: 64px;
+    line-height: 6rem;
+}
+
+.paragraph {
+    margin-top: 3rem;
+    font-weight: 500;
+    
+}
+
+.requestButton {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    display: inline;
+    padding: 1.5rem;
+    font-weight: 800;
+    font-size: 12px;
+
+    background-image: linear-gradient(#FC2F0F 0 0);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.requestButton:hover {
+    background-size: 100% 100%;   
+}

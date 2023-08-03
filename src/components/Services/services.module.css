@@ -1,0 +1,73 @@
+.services {
+    overflow: hidden;
+    position: relative;
+    min-height: 700px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicesText {
+    color: #212121;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 5rem;
+    margin-top: 2rem;
+    
+}
+
+.servicesContent {
+    z-index: 1;
+    padding: 7rem;
+    
+}
+
+.servicesTextSmall {
+    color: #AA9A9A;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.servicesGrid {
+    margin-top: 7rem;
+}
+
+.cardTitle {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top: 2rem;
+}
+
+.cardParagraph {
+    color: #848484;
+    padding-top: 1rem;
+}
+
+.cardButton {
+    color: #848484;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.background {
+    padding-top: 17rem;
+    object-fit: cover;
+}
+
+.cardItem {
+    padding: 1rem;
+    max-width: 400px;
+}
+
+.cardIcon {
+    color: #FC2F0F;
+    font-size: 80px;
+    transform-origin: 0% 100%;
+  }

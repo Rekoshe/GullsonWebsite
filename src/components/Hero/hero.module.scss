@@ -1,0 +1,99 @@
+@import "./../../styles/_theme";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@mixin bigText {
+    display: inline;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 6px;
+    padding: 0.6rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 0.1rem;
+    font-family: "Montserrat" , sans-serif;
+}
+
+.heroText {
+    @include bigText;
+
+    color: #212121;
+    overflow: hidden;
+    font-size: 70px;
+
+
+    background-image: linear-gradient(white 0 0);
+    background-position: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    //animation-name: coolAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+
+    clip-path:polygon(99.99% 0%, 100% 0%, 100% 100%, 99.99% 100%)
+
+}
+
+@keyframes coolAnimation {
+    from {clip-path:polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)}
+    to {clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)}
+}
+
+.heroTextsmall {
+    @include bigText;
+
+    color: white;
+
+    font-size: 16px;
+
+
+    background-image: linear-gradient(white 0 0);
+    background-position: left;
+    background-size: 0%;
+    background-repeat: no-repeat;
+
+    //animation-name: coolAnimationtwo;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+}
+
+@keyframes coolAnimationtwo {
+    0% {background-size: 0%;}
+    50% {background-size: 100%; background-position: left; color: transparent;}
+    51% {background-position: right; color: white;}
+    100% {background-size: 0%; background-position: right; color: white;}
+}
+
+.heroTextContainer  {
+    
+
+    margin-right: 50rem;
+    margin-top: 20rem;
+    transform: scaleX(1);
+
+}
+
+.heroContainer {
+    @include section-container;
+
+    text-align: left;
+    min-height: 700px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.background {
+    background-color: transparent;
+    z-index: -1;
+    object-fit: cover;
+}

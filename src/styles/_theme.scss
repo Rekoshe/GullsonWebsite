@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@mixin section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin big-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+}
