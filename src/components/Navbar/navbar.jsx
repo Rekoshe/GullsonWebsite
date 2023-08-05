@@ -34,7 +34,7 @@ export default function Navbar() {
                 <div className={Styles.whiteSectionContent}>
                     <div className={Styles.logo}>
                         <a href="#">
-                            <Image src='/images/logoProper.jpg' height='75' width='75'></Image>
+                            <Image src='/images/logoProper.jpg' alt="gullson logo" height='75' width='75'></Image>
                         </a>
                     </div>
                     <div className={Styles.navItem}>
