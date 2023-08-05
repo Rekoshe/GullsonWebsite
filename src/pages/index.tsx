@@ -9,6 +9,8 @@ import Features from '@/components/Features/features'
 import Head from 'next/head'
 import HeroTextAnim from '@/components/Hero/heroTextAnim';
 
+import {basePath} from '../../next.config';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -21,7 +23,7 @@ export default function Home() {
 
       <div className='row'>
         <div className="col-*-*">
-          <Hero background={'/images/slider3.jpg'} what='what we do' 
+          <Hero background={`${basePath}/images/slider3.jpg`} what='what we do' 
           firstSentence={<HeroTextAnim>world class</HeroTextAnim>}
           secondSentence={<HeroTextAnim>trucking &</HeroTextAnim>}
           thirdSentence={<HeroTextAnim>logistics</HeroTextAnim>}></Hero>
