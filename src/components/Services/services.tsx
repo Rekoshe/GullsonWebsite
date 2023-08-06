@@ -2,6 +2,7 @@ import React from "react";
 import Styles from './services.module.css';
 import ServiceCard from './serviceCard';
 import Image from 'next/image'
+import {basePath} from '../../../next.config';
 
 export default function Services() {
     return (
@@ -25,7 +26,7 @@ export default function Services() {
 
                 </div>
             </div>
-            <Image className={Styles.background} src="/images/world.jpg" alt="image" fill></Image>
+            <Image className={Styles.background} src={`${basePath}/images/world.jpg`} alt="background image of the world map" fill></Image>
         </div>
     )
 }

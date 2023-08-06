@@ -4,6 +4,8 @@ import Styles from './navbar.module.scss';
 import Image from 'next/image';
 import NavbarText from './navbarText';
 import Link from "next/link";
+import {basePath} from '../../../next.config';
+
 
 export default function Navbar() {
 
@@ -34,7 +36,7 @@ export default function Navbar() {
                 <div className={Styles.whiteSectionContent}>
                     <div className={Styles.logo}>
                         <a href="#">
-                            <Image src='/images/logoProper.jpg' alt="gullson logo" height='75' width='75'></Image>
+                            <Image src={`${basePath}/images/logoProper.jpg`} alt="gullson logo" height='75' width='75'></Image>
                         </a>
                     </div>
                     <div className={Styles.navItem}>

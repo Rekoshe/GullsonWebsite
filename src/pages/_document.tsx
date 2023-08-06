@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import {basePath } from '../../next.config';
 
 export default function Document() {
   return (
@@ -9,7 +10,7 @@ export default function Document() {
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"></link>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-        <link rel="shortcut icon" href="/images/logoProper.jpg" />
+        <link rel="shortcut icon" href={`${basePath}/images/logoProper.jpg`} />
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
         
