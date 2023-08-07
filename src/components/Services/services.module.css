@@ -68,6 +68,12 @@
 
 .cardIcon {
     color: #FC2F0F;
-    font-size: 80px;
+    font-size: 80px !important;
     transform-origin: 0% 100%;
-  }
+    transition: 0.5s;
+}
+
+.cardItem:hover .cardIcon {
+    transform-origin: bottom left;
+    rotate: -30deg;
+}

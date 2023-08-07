@@ -44,3 +44,12 @@ a.social_icon {
   background-color: transparent;
   padding: 0;
 }
+
+.cardIcon {
+  color: red;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}

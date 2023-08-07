@@ -5,28 +5,38 @@
     font-weight: 600;
     text-transform: uppercase;
     padding: 2rem;
-    margin-left: 15rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titleText {
     color: black;
     font-weight: 600;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .paragraphText {
     color: gray;
     font-size: 20px;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.icon {
-    color: red;
-}
 
 .cardItem {
     margin: 3rem;
     margin-top: 5rem;
+    align-items: top;
+
 }
 
 .section {
@@ -58,4 +68,18 @@
 
 .content {
     max-width: 1400px;
+}
+
+.cardIcon {
+    color: red;
+    font-size: 60px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    transition: 0.5s;
+}
+
+.cardItem:hover .cardIcon {
+    color: black;
 }

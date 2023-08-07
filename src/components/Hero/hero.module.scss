@@ -74,18 +74,18 @@
 }
 
 .heroTextContainer  {
-    
 
-    margin-right: 50rem;
+    margin-left: 5rem;
     margin-top: 20rem;
     transform: scaleX(1);
 
 }
 
 .heroContainer {
-    @include section-container;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 
-    text-align: left;
     min-height: 700px;
     position: relative;
     overflow: hidden;
