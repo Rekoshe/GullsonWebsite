@@ -7,7 +7,6 @@ import Services from '@/components/Services/services'
 import Inquiry from '@/components/Inquiry/inquiry'
 import Features from '@/components/Features/features'
 import Head from 'next/head'
-import HeroTextAnim from '@/components/Hero/heroTextAnim';
 
 import {basePath} from '../../next.config';
 
@@ -24,9 +23,9 @@ export default function Home() {
       <div className='row'>
         <div className="col-*-*">
           <Hero background={`${basePath}/images/slider3.jpg`} what='what we do' 
-          firstSentence={<HeroTextAnim>world class</HeroTextAnim>}
-          secondSentence={<HeroTextAnim>trucking &</HeroTextAnim>}
-          thirdSentence={<HeroTextAnim>logistics</HeroTextAnim>}></Hero>
+          firstSentence={'world class'}
+          secondSentence={'trucking &'}
+          thirdSentence={'logistics'}></Hero>
         </div>
 
       </div>

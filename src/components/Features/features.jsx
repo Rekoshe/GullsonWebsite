@@ -16,8 +16,8 @@ export default function Features() {
                     </div>
                 </div>
 
-                <div className="col-sm-6">
-                    <span className={Styles.smallText} >about us</span>
+                <div className="col-sm-6" style={{marginTop: '2rem'}}>
+                    <span className={Styles.smallText} >about us <span style={{color: 'red', fontWeight: '700'}}>&emsp;——</span></span>
                     <h1 className={Styles.bigText }>Between the point of departure and destination there is <span style={{color: "orangered"}}> GULLSUN </span></h1>
                     <h2 className={Styles.subText}>GULLSUN Transport & Logistics keeps your business in motion and your cargo on track.</h2>
                     <p className={Styles.paragraphText}>We offer dedicated transport, logistics and warehousing solutions in Europe and across the world with customised personal service and guaranteed quality. We are one of the leading transport and logistics companies.</p>

@@ -13,7 +13,7 @@ export const Layout = ({ children }) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             </Head>
             <Header height={navbarHeight}></Header>
-            <div className={['container-fluid', Styles.pageContent].join(" ")} >{children}</div>
+            <div className={['container-fluid', Styles.pageContent].join(" ")} style={{backgroundColor: 'white'}} >{children}</div>
             <Footer></Footer>
         </>
     )

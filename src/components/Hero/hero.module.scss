@@ -2,24 +2,20 @@
 
 @mixin bigText {
     display: inline;
-    position: relative;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 6px;
-    padding: 0.6rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    margin-bottom: 0.1rem;
     font-family: "Montserrat" , sans-serif;
 }
 
 .heroText {
     @include bigText;
 
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: #212121;
-    overflow: hidden;
-    font-size: 70px;
-
+    font-size: 6rem;
 
     background-image: linear-gradient(white 0 0);
     background-position: right;
@@ -42,7 +38,7 @@
     to {clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)}
 }
 
-.heroTextsmall {
+.heroTextSmall {
     @include bigText;
 
     color: white;
@@ -72,14 +68,18 @@
 }
 
 .heroTextContainer  {
-    margin-left: 5rem;
     margin-top: 20rem;
     transform: scaleX(1.1);
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    
 }
 
 .heroContainer {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 
     min-height: 700px;
@@ -90,6 +90,17 @@
 
 .background {
     background-color: transparent;
-    z-index: -1;
     object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroText {
+        font-size: 30px;
+        padding: 1rem;
+        
+    }
+    .heroTextContainer{
+        display: flex;
+        flex-direction: column;
+    }
 }
