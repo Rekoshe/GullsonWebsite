@@ -1,0 +1,116 @@
+.section {
+    min-height: 500px;
+    overflow: hidden;
+    color: #BDBDBD;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerContent {
+    position: relative;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+}
+
+.background {
+    display: block;
+    object-fit: contain;
+    z-index: -1;
+    background-color: #212121;
+}
+
+.navItem {
+    margin-right: 2rem;
+    transition: 0.5s;
+    text-decoration: none !important;
+}
+
+.navItem:hover {
+    color: white;
+}
+
+.footerNav {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #424242;
+    padding-bottom: 2rem;
+}
+
+.socialItem {
+    font-size: 20px;
+    margin-left: 2rem;
+    text-decoration: none !important;
+    transition: 0.5s;
+
+}
+
+.socialItem:hover {
+    color: white;
+}
+
+.socialItems {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footerNavItems {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0;
+    margin-top: 2rem;
+
+}
+
+.logo {
+    object-fit: contain;
+
+}
+
+.paragraph {
+    margin-top: 3rem;
+    line-height: 3rem;
+    padding-right: 8rem;
+}
+
+.locationCol {
+    padding: 0;
+    margin-top: 4rem;
+
+}
+
+.locationButton {
+    margin-top: 3rem;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1rem;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-size: 12px;
+
+    background-image: linear-gradient(white 0 0);
+    background-origin: 0% 0%;
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+}
+
+.locationButton:hover {
+    color: black;
+    background-size: 100% 100%;
+}
+
+.subscribeButton {
+    background-color: orangered;
+    padding: 1.5rem;
+    transition: 0.5s;
+    
+}
+
+.subscribeButton:hover {
+    background-color: blue;
+}
