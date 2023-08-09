@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/header";
 import Styles from './layout.module.css';
 import Head from "next/head";
+import Footer from '../Footer/footer';
 
 const navbarHeight = '10rem'
 
@@ -13,6 +14,7 @@ export const Layout = ({ children }) => {
             </Head>
             <Header height={navbarHeight}></Header>
             <div className={['container-fluid', Styles.pageContent].join(" ")} >{children}</div>
+            <Footer></Footer>
         </>
     )
 }

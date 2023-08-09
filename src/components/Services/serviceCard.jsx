@@ -11,7 +11,7 @@ export default function serviceCard(props) {
             <span className={['material-icons', Styles.cardIcon].join(" ")}>{props.icon}</span>
             <h1 className={Styles.cardTitle}>{props.title}</h1>
             <p className={Styles.cardParagraph}>{props.paragraph}</p>
-            <button className={Styles.cardButton}>READ MORE</button>
+            <button className={Styles.cardButton}>READ MORE <span style={{color: 'red', fontWeight: '700'}}>&emsp;——</span></button>
         </div>
     )
 }

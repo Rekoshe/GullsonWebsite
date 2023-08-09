@@ -1,11 +1,11 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import {basePath } from '../../next.config';
+import { basePath } from '../../next.config';
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        
+
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"></link>
@@ -13,8 +13,12 @@ export default function Document() {
         <link rel="shortcut icon" href={`${basePath}/images/logoProper.jpg`} />
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
-        
-        
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"></link>
+
+
       </Head>
 
       <body>

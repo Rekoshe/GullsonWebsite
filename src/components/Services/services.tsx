@@ -10,6 +10,7 @@ export default function Services() {
 
             <div className={Styles.servicesContent}>
                 <span className={Styles.servicesTextSmall}>Gullson Services</span>
+                <span style={{color: 'red', fontWeight: '700'}}>&emsp;——</span>
                 <div className={Styles.servicesText}>
                     You have a need, we <br></br> have the <span style={{ color: '#FC2F0F' }}>SOLUTION</span>
                 </div>
