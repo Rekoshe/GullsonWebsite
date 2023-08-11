@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   images: {unoptimized: true},
-  basePath: '/Users/Lenovo/Documents/gullson/out' //'/GullsonWebsite/out'
+  basePath: '/GullsonWebsite/out'
 }
 
 module.exports = nextConfig
