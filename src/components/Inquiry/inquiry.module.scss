@@ -19,12 +19,12 @@
 
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     color: white; 
-    max-width: 30rem;
     z-index: 1;
     max-width: 1200px;
-    margin-left: 2rem
+    margin-left: 2rem;
+    margin-right: 2rem;
     
 }
 
@@ -36,6 +36,21 @@
     @include big-text;
     font-size: 5rem;
     line-height: 6rem;
+}
+
+@media only screen and (max-width: 375px) {
+    .bigText {
+        font-size: 3rem;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paragraph {
+        text-align: center;
+    }
 }
 
 .paragraph {

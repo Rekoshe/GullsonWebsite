@@ -69,11 +69,11 @@
     }
 
     .navButton {
-        display: none;
+        display: none !important;
     }
 
     .mobileNavButton {
-        display: block !important;
+        display: inline-block !important;
     }
 
     .navItem {
@@ -133,7 +133,7 @@
     font-size: 40px !important;
     margin: 1rem;
     vertical-align: middle;
-    display: none;
+    display: none !important;
 }
 
 .navItem {

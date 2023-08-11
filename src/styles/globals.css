@@ -24,6 +24,8 @@ body {
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
   ;
+
+  max-width: 2560px;
 }
 
 a.social_icon {
@@ -37,12 +39,6 @@ a.social_icon {
 
 .social_icon:hover {
   color: white;
-}
-
-
-.pageContent {
-  background-color: transparent;
-  padding: 0;
 }
 
 .cardIcon {
