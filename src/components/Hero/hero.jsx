@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Image from "next/image";
 import styles from './hero.module.scss';
 import HeroTextAnim from './heroTextAnim';
-import { Prosto_One } from "next/font/google";
 
 
 export default function Hero(props) {

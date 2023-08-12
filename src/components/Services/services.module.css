@@ -50,11 +50,25 @@
     padding-top: 1rem;
 }
 
+.buttonContainer {
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 2rem;
+    width: 137px;
+    white-space: nowrap;
+}
+
 .cardButton {
     color: #848484;
     text-transform: uppercase;
     font-weight: 600;
-    margin-top: 2rem;
+    
+    transition: 0.5s;
+    transform: translateX(-40px);
+}
+
+.cardButton:hover {
+    transform: translateX(10px);
 }
 
 .background {
@@ -66,6 +80,8 @@
 .cardItem {
     padding: 1rem;
     max-width: 400px;
+    opacity: 0;
+    transform: translateY(100px);
 }
 
 .cardIcon {
