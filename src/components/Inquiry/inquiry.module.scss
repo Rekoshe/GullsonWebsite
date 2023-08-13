@@ -1,7 +1,7 @@
 @import "./../../styles/theme";
 
 .background {
-    transform: scale(1.3);
+    transform: scale(1.2);
     object-fit: cover;
     background-color: #212121;
 
@@ -20,12 +20,12 @@
 .content {
     display: grid;
     grid-template-columns: 0.6fr 1fr;
-    color: white; 
+    color: white;
     z-index: 1;
     max-width: 1200px;
     margin-left: 2rem;
     margin-right: 2rem;
-    
+
 }
 
 .smalltext {
@@ -42,7 +42,7 @@
 
 @media only screen and (max-width: 600px) {
     .bigText {
-        font-size: 3rem;
+        font-size: 9vw;
     }
 
     .content {
@@ -53,12 +53,16 @@
     .paragraph {
         text-align: center;
     }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .paragraph {
     margin-top: 3rem;
     font-weight: 500;
-    
 }
 
 .requestButton {
@@ -79,7 +83,7 @@
 }
 
 .requestButton:hover {
-    background-size: 100% 100%;   
+    background-size: 100% 100%;
 }
 
 .contentGrid {
@@ -94,10 +98,10 @@
     margin-right: 2rem;
 
     clip-path: polygon(0.01% 0%, 0% 0%, 0% 100%, 0% 100%)
-
 }
 
 
 .text {
     overflow: hidden;
+
 }

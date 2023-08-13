@@ -31,10 +31,8 @@
 
 
 .cardItem {
-    margin-right: 3rem;
     margin-top: 5rem;
     align-items: top;
-
 }
 
 .section {
@@ -81,4 +79,10 @@
 
 .cardItem:hover .cardIcon {
     color: black;
+}
+
+@media only screen and (max-width: 600px ) {
+    .paragraphText {
+        text-align: center;
+    }
 }
