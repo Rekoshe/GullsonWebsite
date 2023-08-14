@@ -1,0 +1,53 @@
+@import '../../styles/theme';
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    max-width: 1200px;
+    margin-bottom: 4rem;
+}
+
+.ceo {
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.smallText {
+    margin-top: 2rem;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
+
+.imageRow {
+    margin-top: 5rem;
+}
+
+.img {
+    margin: 2rem;
+}
+
+.imageCol {
+    padding: 0rem;
+}
+
+.messageRow {
+    margin-top: 4rem;
+    line-height: 2.5rem;
+    font-size: 16px;
+}
+
+.whyLabel {
+    @include highlightedText;
+}
+
+.why {
+    margin-top: 6rem;
+}
+
+.paragraph {
+    margin-top: 3rem;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import FeatureCard from "./featureCard";
-import Styles from './features.module.css'
+import Styles from './features.module.scss'
 
 export default function Features() {
     return (

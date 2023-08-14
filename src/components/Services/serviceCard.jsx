@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from './services.module.css';
+import Styles from './services.module.scss';
 import { motion } from 'framer-motion';
 
 

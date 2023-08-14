@@ -7,6 +7,7 @@ import Services from '@/components/Services/services'
 import Inquiry from '@/components/Inquiry/inquiry'
 import Features from '@/components/Features/features'
 import Solution from '@/components/Solution/solution'
+import Message from '@/components/Message/message'
 import Head from 'next/head'
 
 import {basePath} from '../../next.config';
@@ -62,6 +63,13 @@ export default function Home() {
       <div className='row'>
         <div className="col-*-*">
           <Solution></Solution>
+        </div>
+
+      </div>
+
+      <div className='row'>
+        <div className="col-*-*">
+          <Message></Message>
         </div>
 
       </div>

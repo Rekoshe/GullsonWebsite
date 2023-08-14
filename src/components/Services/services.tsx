@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from './services.module.css';
+import Styles from './services.module.scss';
 import ServiceCard from './serviceCard';
 import Image from 'next/image'
 import {basePath} from '../../../next.config';
