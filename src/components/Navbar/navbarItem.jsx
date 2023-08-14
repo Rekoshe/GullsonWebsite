@@ -14,7 +14,7 @@ export default function NavbarItem( props) {
 
 
     return (
-        <Link href={props.href} className={classes}>
+        <Link href={props.href} className={[classes, props.classes].join(" ")}>
             {props.name}
             {props.children}
         </Link>
