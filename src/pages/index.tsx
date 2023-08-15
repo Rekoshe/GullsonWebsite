@@ -9,6 +9,7 @@ import Features from '@/components/Features/features'
 import Solution from '@/components/Solution/solution'
 import Message from '@/components/Message/message'
 import More from '@/components/More/more'
+import News from '@/components/News/news'
 import Head from 'next/head'
 
 import {basePath} from '../../next.config';
@@ -78,6 +79,13 @@ export default function Home() {
       <div className='row'>
         <div className="col-*-*">
           <More></More>
+        </div>
+
+      </div>
+
+      <div className='row'>
+        <div className="col-*-*">
+          <News></News>
         </div>
 
       </div>

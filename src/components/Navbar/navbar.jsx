@@ -47,7 +47,7 @@ export default function Navbar() {
                             </NavbarItem>
                             <NavbarItem href='#' name={'projects'}></NavbarItem>
                             <NavbarItem href='#' name={'contact us'}></NavbarItem>
-                            <NavbarItem href='#' name={'about us'}></NavbarItem>
+                            <NavbarItem href='#about' name={'about us'}></NavbarItem>
                             <button className={[Styles.navButton, 'material-icons'].join(" ")}>search</button>
                             <button className={[Styles.navButton, 'material-icons'].join(" ")}>menu</button>
                             <button className={['material-icons', Styles.mobileNavButton].join(" ")}>menu</button>

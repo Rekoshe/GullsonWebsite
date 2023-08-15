@@ -1,0 +1,32 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.content {
+    max-width: 1200px;
+    font-family: 'montserrat', sans-serif;
+    display: flex;
+    justify-content: left;
+}
+
+.textContent {
+    overflow: hidden;
+}
+
+.smallText {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 12px;
+}
+
+.bigText {
+    display: inline-block;
+    color: #212121;
+    font-size: 45px;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
