@@ -12,84 +12,28 @@ import More from '@/components/More/more'
 import News from '@/components/News/news'
 import Head from 'next/head'
 
-import {basePath} from '../../next.config';
+import { basePath } from '../../next.config';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-
     <Layout>
       <Head>
         <title>GullSun</title>
       </Head>
-
-      <div className='row'>
-        <div className="col-*-*">
-          <Hero background={`${basePath}/images/slider3.jpg`} what='what we do' 
-          firstSentence={'world class'}
-          secondSentence={'trucking &'}
-          thirdSentence={'logistics'}></Hero>
-        </div>
-
-      </div>
-
-      <div className='row'>
-        <div className="col-*-*">
-          <Tracking></Tracking>
-        </div>
-
-      </div>
-
-      <div className='row'>
-        <div className="col-*-*">
-          <Services></Services>
-        </div>
-
-      </div>
-
-      <div className='row'>
-        <div className="col-*-*">
-          <Inquiry></Inquiry>
-        </div>
-
-      </div>
-
-      <div className='row'>
-        <div className="col-*-*">
-          <Features></Features>
-        </div>
-
-      </div>
-
-      <div className='row'>
-        <div className="col-*-*">
-          <Solution></Solution>
-        </div>
-
-      </div>
-
-      <div className='row'>
-        <div className="col-*-*">
-          <Message></Message>
-        </div>
-
-      </div>
-
-      <div className='row'>
-        <div className="col-*-*">
-          <More></More>
-        </div>
-
-      </div>
-
-      <div className='row'>
-        <div className="col-*-*">
-          <News></News>
-        </div>
-
-      </div>
-
+      <Hero background={`${basePath}/images/slider3.jpg`} what='what we do' >
+        <span>world class</span>
+        <span>shipping &</span>
+        <span>logistics</span>
+      </Hero>
+      <Tracking></Tracking>
+      <Services></Services>
+      <Features></Features>
+      <Solution></Solution>
+      <Message></Message>
+      <More></More>
+      <News></News>
     </Layout>
   )
 }

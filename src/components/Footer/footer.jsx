@@ -11,10 +11,10 @@ export default function Footer() {
             <div className={Styles.footerContent}>
                 <div className={['row', Styles.footerNav].join(" ")}>
                     <div className={["col-sm-6", Styles.footerNavItems].join(" ")}>
-                        <Link href='#' className={Styles.navItem}>home</Link>
-                        <Link href='#' className={Styles.navItem}>Land freight</Link>
-                        <Link href='#' className={Styles.navItem}>Ocean freight</Link>
-                        <Link href='#' className={Styles.navItem}>About us</Link>
+                        <Link href='/' className={Styles.navItem}>home</Link>
+                        <Link href='/land-freight' className={Styles.navItem}>Land freight</Link>
+                        <Link href='/ocean-freight' className={Styles.navItem}>Ocean freight</Link>
+                        <Link href='/#about' className={Styles.navItem}>About us</Link>
                     </div>
                     <div className={["col-sm-6", Styles.socialItems].join(" ")}>
                         <Link href='#' className={["fa", "fa-google-plus", Styles.socialItem].join(" ")}></Link>

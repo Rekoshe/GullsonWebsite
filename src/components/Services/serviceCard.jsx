@@ -1,6 +1,7 @@
 import React from "react";
 import Styles from './services.module.scss';
 import { motion } from 'framer-motion';
+import Link from "next/link";
 
 
 
@@ -16,7 +17,7 @@ export default function serviceCard(props) {
             <h1 className={Styles.cardTitle}>{props.title}</h1>
             <p className={Styles.cardParagraph}>{props.paragraph}</p>
             <div className={Styles.buttonContainer}>
-                <button className={Styles.cardButton}><span style={{ color: 'red', fontWeight: '700' }}>——&emsp;</span>READ MORE<span style={{ color: 'red', fontWeight: '700' }}>&emsp;——</span></button>
+                <Link href={props.href} className={Styles.cardButton}><span style={{ color: 'red', fontWeight: '700' }}>——&emsp;</span>READ MORE<span style={{ color: 'red', fontWeight: '700' }}>&emsp;——</span></Link>
             </div>
         </motion.div>
     )

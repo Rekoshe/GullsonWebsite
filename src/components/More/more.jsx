@@ -14,7 +14,7 @@ export default function More() {
                 </p>
                 <p className={Styles.bigText}>Here are a few places to explore.</p>
                 <div className={Styles.nav}>
-                    <NavbarItem classes={Styles.navItem} href='#'>About us {'>'}</NavbarItem>
+                    <NavbarItem classes={Styles.navItem} href='#about'>About us {'>'}</NavbarItem>
                     <NavbarItem classes={Styles.navItem} href='#'>Project forwarding {'>'}</NavbarItem>
                     <NavbarItem classes={Styles.navItem} href='#'>Services {'>'}</NavbarItem>
                     <NavbarItem classes={Styles.navItem} href='#'>Contact us {'>'}</NavbarItem>

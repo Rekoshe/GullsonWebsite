@@ -60,12 +60,15 @@
 }
 
 .cardButton {
+    display: inline-block;
     color: #848484;
     text-transform: uppercase;
     font-weight: 600;
     
     transition: 0.5s;
     transform: translateX(-40px);
+
+    text-decoration: none !important;
 }
 
 .cardButton:hover {
